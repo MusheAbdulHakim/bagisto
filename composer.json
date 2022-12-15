@@ -10,6 +10,7 @@
     "require": {
         "php": "^8.1",
         "astrotomic/laravel-translatable": "^11.0.0",
+        "bagisto/bagisto-package-generator": "dev-master",
         "bagisto/laravel-datafaker": "^2.0@alpha",
         "bagisto/rest-api": "^1.0",
         "bagistobrasil/bagisto-product-social-share": "^0.1.2",
@@ -105,7 +106,8 @@
             "Webkul\\DebugBar\\": "packages/Webkul/DebugBar/src",
             "Webkul\\Marketing\\": "packages/Webkul/Marketing/src",
             "Webkul\\Notification\\": "packages/Webkul/Notification/src",
-            "Webkul\\Sitemap\\": "packages/Webkul/Sitemap/src"
+            "Webkul\\Sitemap\\": "packages/Webkul/Sitemap/src",
+            "Mushe\\Rave\\": "packages/Mushe/Rave/src"
         }
     },
     "autoload-dev": {

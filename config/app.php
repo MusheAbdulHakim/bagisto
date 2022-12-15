@@ -234,7 +234,7 @@ return [
         Astrotomic\Translatable\TranslatableServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
-
+        \Mushe\Rave\Providers\RaveServiceProvider::class,
         /*
          * Application Service Providers.
          */
