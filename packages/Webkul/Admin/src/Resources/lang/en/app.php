@@ -1665,6 +1665,9 @@ return [
             'invoice-logo-size'                     => 'Image resolution should be like 192px X 50px',
             'key-id'                      => 'Key Id',
             'key-secret'                      => 'Key Secret',
+            'public-key' => "Public Key",
+            'secret-key' => "Secret Key",
+            "encryption-key" => "Encryption Key"
         ],
     ],
 
