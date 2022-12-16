@@ -95,7 +95,7 @@ class FlutterwaveController extends Controller {
                 ),
             ));
             $response = json_decode(curl_exec($curl), true);
-            $total_amount = sprintf("%0.2f",session('amount'));
+            $total_amount = sprintf("%0.2f",session('total_amount'));
             $amount_paid = sprintf("%0.2f",$response['data']['amount']);
             if (($status === "successful") && ($amount_paid === $total_amount) && ($response['data']['currency'] === session("currency"))) {
                 $order = $this->orderRepository->create(Cart::prepareDataForOrder());
